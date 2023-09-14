@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B82BB1932AB048460024A4E4 /* Restaurant_Bill_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82BB1922AB048460024A4E4 /* Restaurant_Bill_CalculatorApp.swift */; };
+		B82BB1952AB048460024A4E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82BB1942AB048460024A4E4 /* ContentView.swift */; };
+		B82BB1972AB048470024A4E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B82BB1962AB048470024A4E4 /* Assets.xcassets */; };
+		B82BB19B2AB048470024A4E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B82BB19A2AB048470024A4E4 /* Preview Assets.xcassets */; };
+		B82BB1A52AB048470024A4E4 /* Restaurant_Bill_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82BB1A42AB048470024A4E4 /* Restaurant_Bill_CalculatorTests.swift */; };
+		B82BB1AF2AB048470024A4E4 /* Restaurant_Bill_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82BB1AE2AB048470024A4E4 /* Restaurant_Bill_CalculatorUITests.swift */; };
+		B82BB1B12AB048470024A4E4 /* Restaurant_Bill_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82BB1B02AB048470024A4E4 /* Restaurant_Bill_CalculatorUITestsLaunchTests.swift */; };
+		B82BB1BE2AB048760024A4E4 /* LogicHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82BB1BD2AB048760024A4E4 /* LogicHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B82BB1A12AB048470024A4E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82BB1872AB048460024A4E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B82BB18E2AB048460024A4E4;
+			remoteInfo = Restaurant_Bill_Calculator;
+		};
+		B82BB1AB2AB048470024A4E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82BB1872AB048460024A4E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B82BB18E2AB048460024A4E4;
+			remoteInfo = Restaurant_Bill_Calculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B82BB18F2AB048460024A4E4 /* Restaurant_Bill_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurant_Bill_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82BB1922AB048460024A4E4 /* Restaurant_Bill_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant_Bill_CalculatorApp.swift; sourceTree = "<group>"; };
+		B82BB1942AB048460024A4E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B82BB1962AB048470024A4E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B82BB1982AB048470024A4E4 /* Restaurant_Bill_Calculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Restaurant_Bill_Calculator.entitlements; sourceTree = "<group>"; };
+		B82BB19A2AB048470024A4E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B82BB1A02AB048470024A4E4 /* Restaurant_Bill_CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Restaurant_Bill_CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82BB1A42AB048470024A4E4 /* Restaurant_Bill_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant_Bill_CalculatorTests.swift; sourceTree = "<group>"; };
+		B82BB1AA2AB048470024A4E4 /* Restaurant_Bill_CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Restaurant_Bill_CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82BB1AE2AB048470024A4E4 /* Restaurant_Bill_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant_Bill_CalculatorUITests.swift; sourceTree = "<group>"; };
+		B82BB1B02AB048470024A4E4 /* Restaurant_Bill_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant_Bill_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B82BB1BD2AB048760024A4E4 /* LogicHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B82BB18C2AB048460024A4E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82BB19D2AB048470024A4E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82BB1A72AB048470024A4E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B82BB1862AB048460024A4E4 = {
+			isa = PBXGroup;
+			children = (
+				B82BB1912AB048460024A4E4 /* Restaurant_Bill_Calculator */,
+				B82BB1A32AB048470024A4E4 /* Restaurant_Bill_CalculatorTests */,
+				B82BB1AD2AB048470024A4E4 /* Restaurant_Bill_CalculatorUITests */,
+				B82BB1902AB048460024A4E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B82BB1902AB048460024A4E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B82BB18F2AB048460024A4E4 /* Restaurant_Bill_Calculator.app */,
+				B82BB1A02AB048470024A4E4 /* Restaurant_Bill_CalculatorTests.xctest */,
+				B82BB1AA2AB048470024A4E4 /* Restaurant_Bill_CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B82BB1912AB048460024A4E4 /* Restaurant_Bill_Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				B82BB1922AB048460024A4E4 /* Restaurant_Bill_CalculatorApp.swift */,
+				B82BB1942AB048460024A4E4 /* ContentView.swift */,
+				B82BB1962AB048470024A4E4 /* Assets.xcassets */,
+				B82BB1982AB048470024A4E4 /* Restaurant_Bill_Calculator.entitlements */,
+				B82BB1992AB048470024A4E4 /* Preview Content */,
+				B82BB1BD2AB048760024A4E4 /* LogicHandler.swift */,
+			);
+			path = Restaurant_Bill_Calculator;
+			sourceTree = "<group>";
+		};
+		B82BB1992AB048470024A4E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B82BB19A2AB048470024A4E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B82BB1A32AB048470024A4E4 /* Restaurant_Bill_CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B82BB1A42AB048470024A4E4 /* Restaurant_Bill_CalculatorTests.swift */,
+			);
+			path = Restaurant_Bill_CalculatorTests;
+			sourceTree = "<group>";
+		};
+		B82BB1AD2AB048470024A4E4 /* Restaurant_Bill_CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B82BB1AE2AB048470024A4E4 /* Restaurant_Bill_CalculatorUITests.swift */,
+				B82BB1B02AB048470024A4E4 /* Restaurant_Bill_CalculatorUITestsLaunchTests.swift */,
+			);
+			path = Restaurant_Bill_CalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B82BB18E2AB048460024A4E4 /* Restaurant_Bill_Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B82BB1B42AB048470024A4E4 /* Build configuration list for PBXNativeTarget "Restaurant_Bill_Calculator" */;
+			buildPhases = (
+				B82BB18B2AB048460024A4E4 /* Sources */,
+				B82BB18C2AB048460024A4E4 /* Frameworks */,
+				B82BB18D2AB048460024A4E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Restaurant_Bill_Calculator;
+			productName = Restaurant_Bill_Calculator;
+			productReference = B82BB18F2AB048460024A4E4 /* Restaurant_Bill_Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B82BB19F2AB048470024A4E4 /* Restaurant_Bill_CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B82BB1B72AB048470024A4E4 /* Build configuration list for PBXNativeTarget "Restaurant_Bill_CalculatorTests" */;
+			buildPhases = (
+				B82BB19C2AB048470024A4E4 /* Sources */,
+				B82BB19D2AB048470024A4E4 /* Frameworks */,
+				B82BB19E2AB048470024A4E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B82BB1A22AB048470024A4E4 /* PBXTargetDependency */,
+			);
+			name = Restaurant_Bill_CalculatorTests;
+			productName = Restaurant_Bill_CalculatorTests;
+			productReference = B82BB1A02AB048470024A4E4 /* Restaurant_Bill_CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B82BB1A92AB048470024A4E4 /* Restaurant_Bill_CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B82BB1BA2AB048470024A4E4 /* Build configuration list for PBXNativeTarget "Restaurant_Bill_CalculatorUITests" */;
+			buildPhases = (
+				B82BB1A62AB048470024A4E4 /* Sources */,
+				B82BB1A72AB048470024A4E4 /* Frameworks */,
+				B82BB1A82AB048470024A4E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B82BB1AC2AB048470024A4E4 /* PBXTargetDependency */,
+			);
+			name = Restaurant_Bill_CalculatorUITests;
+			productName = Restaurant_Bill_CalculatorUITests;
+			productReference = B82BB1AA2AB048470024A4E4 /* Restaurant_Bill_CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B82BB1872AB048460024A4E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B82BB18E2AB048460024A4E4 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					B82BB19F2AB048470024A4E4 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B82BB18E2AB048460024A4E4;
+					};
+					B82BB1A92AB048470024A4E4 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B82BB18E2AB048460024A4E4;
+					};
+				};
+			};
+			buildConfigurationList = B82BB18A2AB048460024A4E4 /* Build configuration list for PBXProject "Restaurant_Bill_Calculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B82BB1862AB048460024A4E4;
+			productRefGroup = B82BB1902AB048460024A4E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B82BB18E2AB048460024A4E4 /* Restaurant_Bill_Calculator */,
+				B82BB19F2AB048470024A4E4 /* Restaurant_Bill_CalculatorTests */,
+				B82BB1A92AB048470024A4E4 /* Restaurant_Bill_CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B82BB18D2AB048460024A4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82BB19B2AB048470024A4E4 /* Preview Assets.xcassets in Resources */,
+				B82BB1972AB048470024A4E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82BB19E2AB048470024A4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82BB1A82AB048470024A4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B82BB18B2AB048460024A4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82BB1952AB048460024A4E4 /* ContentView.swift in Sources */,
+				B82BB1BE2AB048760024A4E4 /* LogicHandler.swift in Sources */,
+				B82BB1932AB048460024A4E4 /* Restaurant_Bill_CalculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82BB19C2AB048470024A4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82BB1A52AB048470024A4E4 /* Restaurant_Bill_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82BB1A62AB048470024A4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82BB1B12AB048470024A4E4 /* Restaurant_Bill_CalculatorUITestsLaunchTests.swift in Sources */,
+				B82BB1AF2AB048470024A4E4 /* Restaurant_Bill_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B82BB1A22AB048470024A4E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B82BB18E2AB048460024A4E4 /* Restaurant_Bill_Calculator */;
+			targetProxy = B82BB1A12AB048470024A4E4 /* PBXContainerItemProxy */;
+		};
+		B82BB1AC2AB048470024A4E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B82BB18E2AB048460024A4E4 /* Restaurant_Bill_Calculator */;
+			targetProxy = B82BB1AB2AB048470024A4E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B82BB1B22AB048470024A4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B82BB1B32AB048470024A4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B82BB1B52AB048470024A4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Restaurant_Bill_Calculator/Restaurant_Bill_Calculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Restaurant_Bill_Calculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.Restaurant-Bill-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B82BB1B62AB048470024A4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Restaurant_Bill_Calculator/Restaurant_Bill_Calculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Restaurant_Bill_Calculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.Restaurant-Bill-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B82BB1B82AB048470024A4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.Restaurant-Bill-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Restaurant_Bill_Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Restaurant_Bill_Calculator";
+			};
+			name = Debug;
+		};
+		B82BB1B92AB048470024A4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.Restaurant-Bill-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Restaurant_Bill_Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Restaurant_Bill_Calculator";
+			};
+			name = Release;
+		};
+		B82BB1BB2AB048470024A4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.Restaurant-Bill-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Restaurant_Bill_Calculator;
+			};
+			name = Debug;
+		};
+		B82BB1BC2AB048470024A4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.Restaurant-Bill-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Restaurant_Bill_Calculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B82BB18A2AB048460024A4E4 /* Build configuration list for PBXProject "Restaurant_Bill_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82BB1B22AB048470024A4E4 /* Debug */,
+				B82BB1B32AB048470024A4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B82BB1B42AB048470024A4E4 /* Build configuration list for PBXNativeTarget "Restaurant_Bill_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82BB1B52AB048470024A4E4 /* Debug */,
+				B82BB1B62AB048470024A4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B82BB1B72AB048470024A4E4 /* Build configuration list for PBXNativeTarget "Restaurant_Bill_CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82BB1B82AB048470024A4E4 /* Debug */,
+				B82BB1B92AB048470024A4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B82BB1BA2AB048470024A4E4 /* Build configuration list for PBXNativeTarget "Restaurant_Bill_CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82BB1BB2AB048470024A4E4 /* Debug */,
+				B82BB1BC2AB048470024A4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B82BB1872AB048460024A4E4 /* Project object */;
+}
